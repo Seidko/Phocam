@@ -9,5 +9,5 @@
         android:id="@+id/nav_home"
         android:name="com.seidko.phomic.ui.home.HomeFragment"
         android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_phomic" />
 </navigation>

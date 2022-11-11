@@ -31,10 +31,16 @@ class MainActivity : AppCompatActivity() {
         setSupportActionBar(binding.appBarMain.toolbar)
 
         binding.appBarMain.fab.setOnClickListener { view ->
-            if (app.running) Snackbar.make(view, "Stop", Snackbar.LENGTH_LONG)
-                .setAction("Action", null).show()
-            else Snackbar.make(view, "Run", Snackbar.LENGTH_LONG)
-                .setAction("Action", null).show()
+            if (app.running) {
+                Snackbar.make(view, "Stop", Snackbar.LENGTH_LONG)
+                    .setAction("Action", null).show()
+                binding.appBarMain.fab.setImageResource(android.R.drawable.ic_media_play)
+            }
+            else {
+                Snackbar.make(view, "Run", Snackbar.LENGTH_LONG)
+                    .setAction("Action", null).show()
+                binding.appBarMain.fab.setImageResource(android.R.drawable.ic_media_pause)
+            }
             app.running = !app.running
 
         }
