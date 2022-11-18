@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="action_settings">设置</string>
+    <string name="status_inactive">断开</string>
+    <string name="status_connecting">连接中</string>
+    <string name="status_active">正常</string>
+
+    <string name="menu_home">主页面</string>
 </resources>

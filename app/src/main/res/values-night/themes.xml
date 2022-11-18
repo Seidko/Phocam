@@ -1,23 +1,32 @@
 <resources>
     <!-- Base application theme. -->
-    <style name="Theme.Phomic" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <style name="Theme.Phomic" parent="Theme.MaterialComponents.DayNight">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_200</item>
-        <item name="colorPrimaryVariant">@color/purple_200</item>
+        <item name="colorPrimary">@color/gray_700</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/teal_200</item>
         <item name="colorSecondaryVariant">@color/teal_200</item>
         <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
-        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <item name="android:statusBarColor">?attr/colorPrimary</item>
         <!-- Customize your theme here. -->
+        <item name="backgroundColor">@color/gray_700</item>
     </style>
 
+    <style name="Theme.Phomic.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textColorPrimary">@color/white</item>
+    </style>
+
+    <!-- 标记一个坑: Menu的字体颜色修改在这里-->
     <style name="Theme.Phomic.PopupOverlay" parent="ThemeOverlay.AppCompat.Dark" >
         <!-- ActionBar上的title的字体颜色 -->
         <item name="titleTextColor">?attr/colorOnPrimary</item>
         <!-- ActionBar上Menu的字体颜色 -->
         <item name="actionMenuTextColor">?attr/colorOnPrimary</item>
+    </style>
+
+    <style name="Theme.Phomic.ListItem">
+        <item name="android:textColor">@color/white</item>
     </style>
 </resources>

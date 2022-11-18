@@ -35,8 +35,7 @@ class MainActivity : AppCompatActivity() {
                 Snackbar.make(view, "Stop", Snackbar.LENGTH_LONG)
                     .setAction("Action", null).show()
                 binding.appBarMain.fab.setImageResource(android.R.drawable.ic_media_play)
-            }
-            else {
+            } else {
                 Snackbar.make(view, "Run", Snackbar.LENGTH_LONG)
                     .setAction("Action", null).show()
                 binding.appBarMain.fab.setImageResource(android.R.drawable.ic_media_pause)

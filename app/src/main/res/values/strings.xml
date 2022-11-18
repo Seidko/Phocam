@@ -6,6 +6,10 @@
     <string name="nav_header_subtitle" translatable="false">Seidko@github.com</string>
     <string name="nav_header_desc" translatable="false">Navigation header</string>
     <string name="action_settings">Settings</string>
+    <string name="menu_home">Home</string>
 
-    <string name="menu_home" translatable="false">Home</string>
+    <string name="status_inactive">Inactive</string>
+    <string name="status_connecting">Connecting</string>
+    <string name="error" translatable="false">Error</string>
+    <string name="status_active">Active</string>
 </resources>
