@@ -1,4 +1,4 @@
-package com.seidko.phomic.data.entities
+package com.seidko.phocam.data.entities
 
 /**
  * Connection data entity

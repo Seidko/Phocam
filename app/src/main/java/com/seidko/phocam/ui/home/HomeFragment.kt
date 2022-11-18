@@ -1,4 +1,4 @@
-package com.seidko.phomic.ui.home
+package com.seidko.phocam.ui.home
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,14 +7,14 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.seidko.phomic.base.adapter.ConnectionRecyclerAdapter
-import com.seidko.phomic.data.entities.Connection
-import com.seidko.phomic.data.entities.ConnectionType
-import com.seidko.phomic.databinding.FragmentPhomicBinding
+import com.seidko.phocam.base.adapter.ConnectionRecyclerAdapter
+import com.seidko.phocam.data.entities.Connection
+import com.seidko.phocam.data.entities.ConnectionType
+import com.seidko.phocam.databinding.FragmentPhocamBinding
 
 class HomeFragment : Fragment() {
 
-    private var _binding: FragmentPhomicBinding? = null
+    private var _binding: FragmentPhocamBinding? = null
 
     // This property is only valid between onCreateView and
     // onDestroyView.
@@ -29,7 +29,7 @@ class HomeFragment : Fragment() {
         @Suppress("UNUSED_VARIABLE")
         val homeViewModel = ViewModelProvider(this)[HomeViewModel::class.java]
 
-        _binding = FragmentPhomicBinding.inflate(inflater, container, false)
+        _binding = FragmentPhocamBinding.inflate(inflater, container, false)
         val root: View = binding.root
         val connectionRecyclerView = binding.connectionRecyclerView
         val layoutManager = LinearLayoutManager(this.context)
@@ -40,7 +40,6 @@ class HomeFragment : Fragment() {
 
         connectionRecyclerView.adapter = ConnectionRecyclerAdapter(connectionList)
         connectionRecyclerView.layoutManager = layoutManager
-
 
         return root
     }

@@ -1,4 +1,4 @@
-package com.seidko.phomic
+package com.seidko.phocam
 
 import org.junit.Test
 

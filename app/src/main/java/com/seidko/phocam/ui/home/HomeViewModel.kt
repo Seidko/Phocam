@@ -1,4 +1,4 @@
-package com.seidko.phomic.ui.home
+package com.seidko.phocam.ui.home
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

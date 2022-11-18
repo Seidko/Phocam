@@ -1,6 +1,6 @@
 <resources>
     <!-- Base application theme. -->
-    <style name="Theme.Phomic" parent="Theme.MaterialComponents.DayNight">
+    <style name="Theme.Phocam" parent="Theme.MaterialComponents.DayNight">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/gray_700</item>
         <item name="colorOnPrimary">@color/white</item>
@@ -14,19 +14,19 @@
         <item name="backgroundColor">@color/gray_700</item>
     </style>
 
-    <style name="Theme.Phomic.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+    <style name="Theme.Phocam.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
         <item name="android:textColorPrimary">@color/white</item>
     </style>
 
     <!-- 标记一个坑: Menu的字体颜色修改在这里-->
-    <style name="Theme.Phomic.PopupOverlay" parent="ThemeOverlay.AppCompat.Dark" >
+    <style name="Theme.Phocam.PopupOverlay" parent="ThemeOverlay.AppCompat.Dark" >
         <!-- ActionBar上的title的字体颜色 -->
         <item name="titleTextColor">?attr/colorOnPrimary</item>
         <!-- ActionBar上Menu的字体颜色 -->
         <item name="actionMenuTextColor">?attr/colorOnPrimary</item>
     </style>
 
-    <style name="Theme.Phomic.ListItem">
+    <style name="Theme.Phocam.ListItem">
         <item name="android:textColor">@color/white</item>
     </style>
 </resources>

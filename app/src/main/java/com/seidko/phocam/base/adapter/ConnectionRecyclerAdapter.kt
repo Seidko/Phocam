@@ -1,4 +1,4 @@
-package com.seidko.phomic.base.adapter
+package com.seidko.phocam.base.adapter
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -7,9 +7,9 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.seidko.phomic.R
-import com.seidko.phomic.data.entities.Connection
-import com.seidko.phomic.data.entities.ConnectionStatus
+import com.seidko.phocam.R
+import com.seidko.phocam.data.entities.Connection
+import com.seidko.phocam.data.entities.ConnectionStatus
 
 
 class ConnectionRecyclerAdapter(private var connectionArray: ArrayList<Connection>) :

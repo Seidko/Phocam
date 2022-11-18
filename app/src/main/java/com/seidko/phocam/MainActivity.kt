@@ -1,4 +1,4 @@
-package com.seidko.phomic
+package com.seidko.phocam
 
 
 import android.os.Bundle
@@ -12,18 +12,18 @@ import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.appcompat.app.AppCompatActivity
-import com.seidko.phomic.data.PhomicApplication
-import com.seidko.phomic.databinding.ActivityMainBinding
+import com.seidko.phocam.data.PhocamApplication
+import com.seidko.phocam.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 
     private lateinit var appBarConfiguration: AppBarConfiguration
     private lateinit var binding: ActivityMainBinding
-    private lateinit var app: PhomicApplication
+    private lateinit var app: PhocamApplication
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        app = application as PhomicApplication
+        app = application as PhocamApplication
 
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)

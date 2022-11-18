@@ -1,6 +1,6 @@
 <resources>
     <!-- Base application theme. -->
-    <style name="Theme.Phomic" parent="Theme.MaterialComponents.DayNight">
+    <style name="Theme.Phocam" parent="Theme.MaterialComponents.DayNight">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/gray_300</item>
         <item name="colorPrimaryVariant">@color/gray_300</item>
@@ -16,18 +16,18 @@
         <item name="backgroundColor">@color/gray_200</item>
     </style>
 
-    <style name="Theme.Phomic.NoActionBar">
+    <style name="Theme.Phocam.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
 
-    <style name="Theme.Phomic.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+    <style name="Theme.Phocam.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
         <item name="android:textColorPrimary">@color/black</item>
     </style>
 
-    <style name="Theme.Phomic.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="Theme.Phocam.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
-    <style name="Theme.Phomic.ListItem">
+    <style name="Theme.Phocam.ListItem">
         <item name="android:textColor">@color/black</item>
     </style>
 </resources>
